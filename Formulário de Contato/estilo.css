@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f2f2f2;
+    align-items: center;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 30%;
+    height:38%;
+}
+h2{
+    text-align: center;
+    font-weight: bold;
+    margin: 10px;
+}
+p{  
+    text-align: center;
+    color: #ff0000;
+    margin: 0;
+}
+button{
+    background-color: #009000;
+    color: #fff;
+    margin: 10px;
+    width: 15%;
+    height: 12%;
+    border: none;
+    border-radius: 5px;
+}
+label{
+    margin: 0 10px;
+    font-weight: bold;
+}
+input, textarea{
+    margin: 0 10px;
+    border: 1px solid #bdbcbc;
+    border-radius: 2px;
+}
+
+#Nome,#Email{
+    height: 30px;
+}
+#Mensagem{
+    height: 80px;
+}
+.nDigitado{
+    border: 1px solid #f70909;
+}
